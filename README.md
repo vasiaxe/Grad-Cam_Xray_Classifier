@@ -4,15 +4,9 @@ This project trains a convolutional neural network to classify chest X-rays as `
 
 The goal is not only to evaluate classification performance, but also to examine whether the model appears to rely on medically relevant lung regions or possible dataset artifacts.
 
-## Project Motivation
-
-Chest X-ray classification is a common medical imaging task, but high accuracy alone does not guarantee that a model is learning clinically meaningful features. A model may rely on shortcuts such as image borders, brightness patterns, positioning, or dataset-specific artifacts.
-
-This project uses Grad-CAM to visualize model attention and critically inspect the baseline CNN's predictions.
-
 ## Dataset
 
-This project uses the Kaggle Chest X-Ray Images (Pneumonia) dataset.
+The Kaggle Chest X-Ray Images (Pneumonia) dataset is used.
 
 The full dataset is not included in this repository because of file size and licensing considerations. See `data/README.md` for setup instructions.
 
