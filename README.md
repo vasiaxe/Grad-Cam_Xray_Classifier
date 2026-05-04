@@ -6,7 +6,7 @@ The goal is not only to evaluate classification performance, but also to examine
 
 ## Dataset
 
-The Kaggle Chest X-Ray Images (Pneumonia) dataset is used
+The Kaggle Chest X-Ray Images (Pneumonia) dataset is used which can be found at: https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia/data
 
 The full dataset is not included in this repository because of file size and licensing considerations. See `data/README.md` for setup instructions
 
