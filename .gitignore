@@ -1,0 +1,6 @@
+data/chest_xray/
+outputs/models/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+*.pyc
